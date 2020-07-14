@@ -8,11 +8,6 @@ buildscript {
         classpath "com.android.tools.build:gradle:4.0.0"
     }
 
-    dependencies {
-        def appCenterSdkVersion = '3.2.2'
-        implementation "com.microsoft.appcenter:appcenter-analytics:${appCenterSdkVersion}"
-        implementation "com.microsoft.appcenter:appcenter-crashes:${appCenterSdkVersion}"
-    }
 }
 
 
